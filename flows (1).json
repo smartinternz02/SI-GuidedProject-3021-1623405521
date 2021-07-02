@@ -1,0 +1,49 @@
+[
+    {
+        "id": "ec51eee4.3a887",
+        "type": "ui_button",
+        "z": "b78ba539.7a8588",
+        "name": "",
+        "group": "825cf13.5f3a21",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Light OFF",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{\"command\":\"lightoff\"}",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 500,
+        "y": 160,
+        "wires": [
+            [
+                "7559151a.44291c",
+                "c98f41fb.8c10c",
+                "5d5a3cd9.b41444"
+            ]
+        ]
+    },
+    {
+        "id": "825cf13.5f3a21",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "74040179.55f82",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "74040179.55f82",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
